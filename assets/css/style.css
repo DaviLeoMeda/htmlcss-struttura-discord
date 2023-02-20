@@ -1,0 +1,132 @@
+/* Utilities */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flexato{
+    display: flex;
+}
+
+/* Elementi */
+
+/* Elementi header */
+
+nav{
+    background-color: lightcoral;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+}
+
+
+#barra{
+    width: 70%;
+    height: 50%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightblue;
+}
+
+.linktesta{
+    border: 2px dashed grey;
+}
+
+.uno, .tre{
+    width: 25%;
+}
+
+.due{
+    width: 50%; 
+    text-align: center;
+}
+
+header>section{
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+}
+
+#box{
+    min-height: 150px;
+    width: 30%;
+    background-color: pink;
+    border: 2px dashed grey;
+}
+
+/* Elementi main */
+
+
+main>section{
+    justify-content: center;
+    align-items: center;
+    min-height: 250px;
+}
+
+.scatola{
+    min-height: 200px;
+}
+
+.white{
+    background-color: #fff;
+}
+
+.grey{
+    background-color: darkgray;
+}
+
+.first{
+    background-color: blue;
+    width: 30%;
+}
+
+.second{
+    background-color: pink;
+    width: 10%;
+}
+
+.first, .second{
+    border: 2px dashed grey;
+}
+
+.scatolona{
+    width: 60%;
+    min-height: 300px;
+    background-color: green;
+    margin: 30px 0;
+    border: 2px dashed grey;
+}
+
+
+
+footer>section{
+    background-color: rgb(72, 55, 55);
+    min-height: 300px;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+}
+
+.contatti{
+    min-height: 300px;
+    border: 2px dashed grey;
+}
+
+.top{
+    background-color: fuchsia;
+    width: 10%;
+}
+
+.bottom{
+    background-color: lightseagreen;
+    width: 6%;
+}
+
+
+#vuoto{
+    height: 100px;
+    background-color: rgb(72, 55, 55);
+}
